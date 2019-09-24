@@ -9,7 +9,7 @@
  * 
  * @author Siva Sankar
  */
-Package AbsoluteNumber;
+package AbsoluteNumber;
 import java.lang.Math;
 public class AbsoluteNumber {
 
@@ -18,8 +18,8 @@ public class AbsoluteNumber {
      * @param n, the integer
      * @return absolute value of n
      */
-     
-     public static AbsoluteNumber abs(int n){
-       return (Math.abs(n));
+    public static int abs(int n) {
+        // Your code goes here....
+        return (Math.abs(n));
     }
 }
