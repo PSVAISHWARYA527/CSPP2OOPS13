@@ -29,13 +29,11 @@ public class SleepIn {
      */
     public static boolean sleepIn(boolean weekDay, boolean vacation) {
         //  Your code goes here.
-        if(weekDay != true || vacation == true)
+        if(weekDay==false || vacation==true)
         {
             return true;
         }
-        else
-        {
-            return false;
-        }
+        return false;
+        
     }
 }
