@@ -3,6 +3,7 @@
  * 
  * @author Siva Sankar
  */
+package AreaOfCircle;
 public class AreaOfCircle {
     
     private static final double PI = 3.14159;
@@ -16,6 +17,7 @@ public class AreaOfCircle {
      */
     public static double areaOfCircle(double radius) {
         //  Your code goes here....
+        return(PI*radius*radius);
     }
 
     /**
@@ -27,5 +29,6 @@ public class AreaOfCircle {
      */
     public static double perimeterOfCircle(double radius) {
         //  Your code goes here....
+        return(2*PI*radius);
     }
 }
