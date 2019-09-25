@@ -27,11 +27,9 @@ public class LoneTeen {
      */
     public static boolean loneTeen(int a, int b) {
         // Your code goes here....
-        if ((a>=13 && a<=19) || (b>=13 && b<=19)){
+        if ((a>=13 && a<=19)&&(b>19 || b<13)||(b>=13 && b<=19) &&(a>19 || a<13))
+        {
             return true;
-        }
-        else if (((a>=13 && a<=19) && (b>=13 && b<=19))||(a==b)){
-            return false;
         }
         else{
             return false;
