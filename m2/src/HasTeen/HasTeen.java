@@ -13,7 +13,7 @@
  * 
  * @author Siva Sankar
  */
-
+ package HasTeen;
  public class HasTeen {
 
     /**
@@ -29,10 +29,7 @@
      */
     public static boolean hasTeen(int a, int b, int c) {
         // Your code goes here....
-        if ((a>=13 && a<=19)||(b>=13 && b<=19)||(c>=13 && c<=19)){
-            return true;
-        }
-        elif (((a>=13 && a<=19) && (b>=13 && b<=19)) ||((c>=13 && c<=19)&&(a>=13 && a<=19))||((b>=13 && b<=19)&(c>=13 && c<=19))){
+        if((a>=13 && a<=19)|| (b>=13 && b<=19) || (c>=13 && c<=19)){
             return true;
         }
         else{

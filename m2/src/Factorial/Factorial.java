@@ -12,7 +12,7 @@
      */
     public static long factorial(int n) {
         long factorial=1;
-        if (n>0 && n<=20){
+        if (n>=0 && n<=20){
         for(int i=1;i<=n;i++){
             factorial=factorial*i;
         }

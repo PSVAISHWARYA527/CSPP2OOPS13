@@ -20,16 +20,16 @@ public class BinaryToDecimal {
      * @return the decimal number n of the binary string.
      */
     public static int binaryToDecimal(String s) {
-        int k=Integer.parseInt(s);
-        int i=0;
-        int decimal=0;
-        while(k!=0){
-                long temp=k%10;
-                decimal+=(temp*(Math.pow(2,i)));
-                k=k/10;
-                i++;
-            }
-            return decimal;
+        int k=Integer.parseInt(s,2);
+        //int i=0;
+        //int decimal=0;
+        //while(k!=0){
+                //long temp=k%10;
+                //decimal+=(temp*(Math.pow(2,i)));
+                //=k/10;
+                //i++;
+            //}
+    return k;
     }
 }
 
